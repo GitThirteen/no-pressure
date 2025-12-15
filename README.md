@@ -3,7 +3,7 @@ Fun little VR game in which you either solve tasks with your friend or you all d
 
 # Super mega hyper uber duper important
 Please download the Fab folder and drag n' drop its content into Content/Fab. The assets are too big for GitHub:
-https://drive.google.com/file/d/1n_s4r8NDtz5-AaI2xLR7eQW_lkWqnXbI/view?usp=sharing
+https://drive.google.com/file/d/1AqWwBf7k82m_qJpqIdHNtc11hc2t5Cv4/view?usp=sharing
 
 # Our Submission
 Our submission consists of three levels:
@@ -34,9 +34,10 @@ We have made heavy use of interactable objects, which highlight whenever you loo
 ### Meteors and Pistols (2-player simultaneous interaction)
 Whenever one player picks up a pistol from the ground, meteors start shooting at the spaceship. Meteors are either orange or blue. When a meteor is shot, it displays a digit.
 The players must communicate said color and digit to appropriately set the color of a button on an array of nine buttons.
+Additionally, there is a little collection task, requiring the players to collect 3 fuel cells from 9 possible locations!
 
 ### Radio (spatial audio)
-In the lobby, it is possible to turn the radio on and off (using the interaction interface). The radio's audio is spatialized.
+In the lobby, it is possible to turn the radio on and off (using the interaction interface). The radio's audio is spatialized, and haptics are used whenever possible (e.g., to signal that you cannot select the other player's ready button in the lobby, or when enabling / disabling the radio)
 
 ### Meteor Task UI Helpers (create & modify >=3 objects)
 1. On grabbing of the pistol, meteors start spawning and shooting at the spaceship
@@ -46,3 +47,10 @@ In the lobby, it is possible to turn the radio on and off (using the interaction
 
 ### Locomotion (metaphor without a helper object)
 To move within the environment, both triggers must be pressed and the user must make mvoements as if they were running.
+
+### Fab List
+"PSX Boombox" by Drillimpact
+"NRG Co. Portable Fusion Reactor" by CleanCraft3D
+"Space Station 4" by Gerardo Justel
+"Spaceship Interior Environment Set" by Denys Rutkovskyi
+"Space Nebula Skyboxes - Project Sample" by Arghanion's Puzzlebox
